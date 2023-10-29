@@ -2,48 +2,69 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Practice Set 2.1 || Boilerplate HTML</title>
-  <style>
-    .d-block{
-       display:block; 
-    }
-    .d-inline{
-        display:inline;
-    }
-    section{height:550px;
-    background-color: gray;
-    margin: 2
-    ;
-
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website project</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <section>
-    <h1 style="color:red;">red</h1>
-    <h2 style="color:orange;">Orange</h2>
-    <h3 style="color:yellow;">yellow</h3>
-    <h4 style="color:blue;">Blue</h4>
-    <h5 style="color:purple;">Purple</h5>
-    <h6 style="color:cyan;">Cyan</h6>
-  </section>
+    <nav>
+        <img src="assets/logo.svg" alt="">
+        <div>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">GALLERY</a>
+            <a href="#">CONTACT</a>
+        </div>
+        <a href="NEWPAGE.html">
+            <button>LEARN MORE</button>
 
-  <section>
-    <span class="d-block">I am a block span element</span>
-    <span class="d-block">I am a block span element</span>
-    <span class="d-block">I am a block span element</span>
-    <span class="d-block">I am a block span element</span>
-  </section>
+        </a>
+    </nav>
+    <main>
+        <section id="home">
+            <h1>World'S Best Architecture Designers</h1>
+            <p><b></b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorum similique fugiat assumenda
+                voluptas at libero officiis impedit provident sapiente illo, totam deserunt porro. Dicta vitae tempora
+                magni iure saepe voluptatibus recusandae neque obcaecati nam.<b></b></p>
+        </section>
+        <section id="about">
+            <div>
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere molestias eos cumque perspiciatis
+                    totam nemo commodi, enim exercitationem doloribus ut officia mollitia dolor alias quae, dignissimos
+                    ipsa perferendis nulla iure.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque deserunt facilis asperiores odio
+                    quibusdam itaque, optio beatae fuga, dolorem fugiat inventore delectus maiores nemo eveniet animi
+                    illum eligendi quaerat accusamus!</p>
+            </div>
+            <div>
+                <img src="assets/img-4.jpg" alt="pic">
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>GALLERY</h2>
+            <div class="gallery-box">
+                <img src="assets/img-5.jpg" alt="g">
+                <img src="assets/img-6.jpg" alt="g">
+                <img src="assets/img-1.jpg" alt="g">
+                <img src="assets/img-3.jpg" alt="g">
+                <img src="assets/img-2.jpg" alt="g">
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Get in touch</h2>
+            <form action="" method="post">
+                <input type="email" placeholder="Email Address" />
+                <input type="button" value="Submit">
+            </form>
+        </section>
 
-  <section>
-    <div class="d-inline">I am an inline div element</div>
-    <div class="d-inline">I am an inline div element</div>
-    <div class="d-inline">I am an inline div element</div>
-    <div class="d-inline">I am an inline div element</div>
-  </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2023 Muhammad Ubaid</p>
+    </footer>
 </body>
 
 </html>
